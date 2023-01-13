@@ -44,7 +44,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 > Click on the link below to see the live demo
 
-- [Live Demo Link]()
+- [Live Demo Link](https://rudy-menekam.github.io/developers-community/)
 - [Video Presentaion of the Porject](https://www.loom.com/share/cef1b9c4b5074b1ab83811318877635b)
 
 ## 💻 Getting Started <a name="getting-started"></a>
