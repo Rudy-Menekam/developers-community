@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <script src="/js/menu.js"></script>
+  <title>Developer Circles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">  
+</head>
+    <body>
+        <header class="header">
+            <div class="banner">
+              <ul class="banner-list">
+                <li class="banner-item"><a href="#">
+                  <img id="banner_image" src="/images/facebook 1.svg" alt="twitter" width="32%" style="margin-left:80%">
+                </a></li>
+                <li class="banner-item"><a href="#">
+                  <img src="/images/ic_twitter.svg" alt="twitter" width="55%">
+                </a></li>
+                <li class="banner-item"><a href="#">English</a></li>
+                <li class="banner-item"><a href="#">My Page</a></li>
+                <li class="banner-item"><a href="#">Logout</a></li>
+              </ul>
+            </div>
+            <nav class="navbar" id="menu">
+              <a href="index.html">
+                <h1>Developer Circles: Buea</h1>
+              </a>
+              <i id="cross" class="cross invisible" onclick="toggleMenu()"><img src="images/ic_cross.svg" alt="ic_cross"></i>
+              <ul class="nav-list">
+                <li class="nav-item"><a href="./about_us.html">About</a></li>
+                <li class="nav-item"><a href="#">Program</a></li>
+                <li class="nav-item"><a href="#">Join</a></li>
+                <li class="nav-item"><a href="#">Sponsor</a></li>
+                <li class="nav-item"><a href="#">News</a></li>
+                <li class="nav-item"><a href="#">DevC Campaign</a></li>
+              </ul>
+            </nav>
+        
+            <!-- Mobile menu icon -->
+            <div class="burger">
+                <div id="burger-container" class="burger-container" onclick="toggleMenu()">
+                   <div class="burger-element one"></div>
+                  <div class="burger-element two"></div>
+                  <div class="burger-element three"></div>
+                </div>
+              </div>
+          </header>
+        <main>
+            <!-- Header Section -->
+    <section class="section-header">
+        <article>
+          <h3 class="slogun">"Hello Dev Community"</h3>
+          <h1 class="title">Developer Circles <br> Community: Buea <br> 2023</h1>
+          <p class="description">It is a community of innovators, where experienced developers receive 
+            free opportunities to strengthen their expertise in Meta products.</p>
+          <div>
+            <h2 class="date">2017.10.27 ~ present</h2>
+            <h4 class="place">@ developer circle, Buea community</h4>
+          </div>
+        </article>
+      </section>
+
+       <!-- Section main program -->
+    <section class="section-main-program">
+        <article class="main-program-wrapper">
+          <h3 class="main-program-title">Main Program</h3>
+          <div class="divider"></div>
+          <ul class="programs-list">
+            <li class="program-item">
+              <img src="/images/1.png" alt="first image">
+              <h3>Online Events</h3>
+              <p>Listen to the speakers from various countries about the message of sharing and opening.</p>
+            </li>
+            <li class="program-item">
+              <img src="/images/2.png" alt="first image">
+              <h3>Physical Events</h3>
+              <p>Listen to the speakers from various countries about the message of sharing and opening.</p>
+            </li>
+            <li class="program-item">
+              <img src="/images/3.png" alt="first image">
+              <h3>Forum</h3>
+              <p>Listen to the speakers from various countries about the message of sharing and opening.</p>
+            </li>
+            <li class="program-item">
+              <img src="/images/4.png" alt="first image">
+              <h3>Workshops</h3>
+              <p>Listen to the speakers from various countries about the message of sharing and opening.</p>
+            </li>
+            <li class="program-item">
+              <img src="/images/5.png" alt="first image">
+              <h3>Hackathon</h3>
+              <p>Listen to the speakers from various countries about the message of sharing and opening.</p>
+            </li>
+          </ul>
+          <a class="see-more-link" href="#">Learn more</a>
+        </article>
+      </section>
+<!-- Section features -->
+<section class="feature-section">
+  <article class="feature-wrapper">
+    <h3 class="main-program-title feature-title">Featured Speakers</h3>
+    <div class="divider"></div>
+    <ul id="speakers" class="speaker-list">
+      <!-- Here speaker dyanmic will come once page loaded -->
+    </ul>
+  </article>
+</section>
+ <!-- Section Partners -->
+ <section class="section-partners">
+  <article class="partners-wrapper">
+    <h3 class="main-program-title">Partners</h3>
+    <div class="divider"></div>
+    <div class="logo-gallery">
+      <img src="/images/Frame-1.png" alt="Meta">
+      <img src="/images/Frame-2.png" alt="DevC">
+      <img src="/images/Frame-3.png" alt="SparkAR">
+      <!-- <img src="./assets/images/stack.png" alt="Stackoverflow">
+      <img src="./assets/images/meta.png" alt="Meta"> -->
+    </div>
+  </article>
+</section>
+ <!-- Footer -->
+ <footer class="footer">
+  <a href="#">
+    <h1>Developer Circles: Buea</h1>
+  </a>
+  <div>
+    <p>2033 Developers Community. some rights reserved</p>
+    <p>Coded by Rudy &hearts; at 01-13-2023 microverse module 1 capstone project, all assets taken from internet <br>and design idea has taken from CC Global Summit 2015 by <strong>Cindy Shin</strong></p>
+  </div>
+</footer>
+</main>
+        </main>
+        <script src="/js/speakers.js"></script>
+    </body>
+</html>
