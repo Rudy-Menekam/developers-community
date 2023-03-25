@@ -9,7 +9,7 @@ const speakers = [
     description: `SohYeong Noh is sit amet consectetur adipisicing elit. Corrupti, 
                   alias! Ad quibusdam quam fugiat doloribus commodi enim 
                   sapiente corrupti quidem impedit, voluptatum, provident vitae at.`,
-    image: '/images/Group-3.png',
+    image: '/images/group-3.png',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const speakers = [
     description: `Yochai Beankler is consectetur adipisicing elit. Corrupti, 
                   alias! Ad quibusdam quam fugiat doloribus commodi enim 
                   sapiente corrupti quidem impedit, voluptatum, provident vitae at.`,
-    image: '/images/Group-4.png',
+    image: '/images/group-4.png',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const speakers = [
     description: `Lila Tretikov is adipisicing elit. Corrupti, 
                   alias! Ad quibusdam quam fugiat doloribus commodi enim 
                   sapiente corrupti quidem impedit, voluptatum, provident vitae at.`,
-    image: '/images/Group-5.png',
+    image: '/images/group-5.png',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const speakers = [
     description: `Kilnam Chon is adipisicing elit. Corrupti, 
                   alias! Ad quibusdam quam fugiat doloribus commodi enim 
                   sapiente corrupti quidem impedit, voluptatum, provident vitae at.`,
-    image: '/images/Group-6.png',
+    image: '/images/group-6.png',
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const speakers = [
     description: `Julia Leda is corrupti, 
                   alias! Ad quibusdam quam fugiat doloribus commodi enim 
                   sapiente corrupti quidem impedit, voluptatum, provident vitae at.`,
-    image: '/images/Group-7.png',
+    image: '/images/group-7.png',
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const speakers = [
     description: `Ryan Merkley is dolor sit amet consectetur adipisicing elit. Corrupti, 
                   alias! Ad quibusdam quam fugiat doloribus commodi enim 
                   sapiente corrupti quidem impedit, voluptatum, provident vitae at.`,
-    image: '/images/Group-8.png',
+    image: '/images/group-8.png',
   },
 ];
 
